@@ -1,0 +1,62 @@
+{
+  "title": "Design your app's first screen",
+  "intro": "You say what the app is for. Claude maps its screens, draws the first one in Figma as a wireframe and then in your colors, changes it as you talk, checks it against written rules, and you accept or reject the design. Nothing here writes app code.",
+  "steps": [
+    {
+      "id": 1,
+      "title": "Get set up",
+      "mode": "derived",
+      "you": "Run ./fad help and fix what it lists as missing (the Figma connection, a design folder: ./fad init \"<your app's name>\").",
+      "claude": "Runs ./fad check, then asks Figma who you are (whoami) to confirm your seat can draw. Gives you the exact command for anything missing.",
+      "done_when": "Every required check passes and a design folder exists (./fad init)."
+    },
+    {
+      "id": 2,
+      "title": "Say what the app is",
+      "mode": "derived",
+      "you": "Answer a few questions: what it does and for whom, the three things a person must be able to do, iPhone or Android or both, which of the four color sets, and who may approve. Confirm or edit the starter rulebook.",
+      "claude": "Fills design/brief.yaml from your answers, one or two questions at a time. Shows the four color sets (./fad palettes). Records your confirmation of the rulebook.",
+      "done_when": "design/brief.yaml has every required field filled."
+    },
+    {
+      "id": 3,
+      "title": "Map the screens",
+      "mode": "derived",
+      "you": "Read the list of screens Claude proposes and how one leads to the next. Add, remove or rename until it matches the app in your head. Say which screen to draw first.",
+      "claude": "Writes design/screens.json (each screen, what a person does there, where it leads, which states it needs) and draws the flow as a diagram. ./fad screens checks nothing is unreachable.",
+      "done_when": "design/screens.json exists, has one start screen, and ./fad screens reports no problems."
+    },
+    {
+      "id": 4,
+      "title": "See the first screen as a wireframe",
+      "mode": "manual",
+      "you": "Open the Figma link Claude gives you and look at the first screen as plain boxes and labels, at phone size. Say what is in the wrong place before any color goes on.",
+      "claude": "Creates the Figma file for your app, sets up the color variables and the phone frame, and draws the first screen and its states as a wireframe. Records what it wrote.",
+      "done_when": "The wireframe exists in Figma and you have looked at it. Claude marks this step done."
+    },
+    {
+      "id": 5,
+      "title": "See it in your colors, and talk to it",
+      "mode": "manual",
+      "you": "Look at the styled screen. Ask for changes in plain words (\"make the add button bigger\", \"move search to the top\"). Read the check results: what is too small to tap, too faint to read, or missing.",
+      "claude": "Draws the screen in your color set, makes each change you ask for and records your words, measures its own drawing against the rulebook, and writes the design up as D-0001 with the options it passed over.",
+      "done_when": "The styled screen exists, the checks have run, and at least one decision record is written. Claude marks this step done."
+    },
+    {
+      "id": 6,
+      "title": "Accept or reject",
+      "mode": "derived",
+      "you": "In your own terminal, run ./fad approve D-0001 (or reject, or defer) for each design. You type your name and confirm. Then commit the approval file.",
+      "claude": "Waits. It cannot approve, reject or defer for you, and chat does not count. If you say 'approved' in chat it will point you to this command.",
+      "done_when": "Every proposed design is approved, rejected or deferred by a person."
+    },
+    {
+      "id": 7,
+      "title": "Hand the approved design to a builder",
+      "mode": "derived",
+      "you": "Choose Claude Code or Codex to build it, in a separate session, one branch per design.",
+      "claude": "Writes a short brief for each approved design: what was and was not approved, the Figma frames, the colors as tokens, and the checks to re-run on the built screen. It never writes app code.",
+      "done_when": "Each approved design has a brief in design/handoff/ (or nothing was approved)."
+    }
+  ]
+}

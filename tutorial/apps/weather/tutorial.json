@@ -1,0 +1,40 @@
+{
+  "slug": "weather",
+  "title": "A weather app",
+  "example_name": "Sky Today",
+  "teaches": "showing numbers at a glance, and what a screen says when it has no data",
+  "platform": "ios",
+  "shown_in": "Brutalist",
+  "draw_first": "S-01",
+  "one_line": "Today's weather and the next few days for the places you care about, readable at a glance.",
+  "people": [
+    "Someone deciding what to wear or whether to go out, looking for five seconds"
+  ],
+  "top_tasks": [
+    "See the weather right now where I am",
+    "See what the next hours and days look like",
+    "Check another city"
+  ],
+  "templates": {
+    "design": [
+      "https://www.figma.com/community/file/1100826294536456295",
+      "https://www.figma.com/community/file/885501292477669105"
+    ],
+    "code": [
+      "https://github.com/bizz84/open_weather_example_flutter",
+      "https://github.com/odaridavid/WeatherApp",
+      "https://github.com/jhomlala/feather"
+    ]
+  },
+  "drawn": {
+    "date": "2026-11-10",
+    "picture": "docs/tutorials/weather.png",
+    "measured": [
+      "2 things to tap: \"Cities\" at 60 by 44 points and the button at 348 by 48. Both meet the 44-point guidance.",
+      "Smallest text: 13 points. The floor is 11.",
+      "**One failure.** The six hour labels (\"Now\", \"1 PM\", ...) are slate grey on the slate card: 4.34:1. Body text needs 4.5:1 (WCAG 2.2, 1.4.3).",
+      "That is the same pairing `./fad palettes brutalist` marks LOW before anything is drawn. The palette warned; the drawing used it anyway; the check caught it.",
+      "The picture below still shows the faint labels. Fixing them is your first request."
+    ]
+  }
+}

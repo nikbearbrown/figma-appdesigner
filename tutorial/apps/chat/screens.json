@@ -1,0 +1,92 @@
+{
+  "draw_first": "S-02",
+  "screens": [
+    {
+      "id": "S-01",
+      "name": "Chats",
+      "start": true,
+      "purpose": "See your conversations, newest first",
+      "serves": [
+        "Find the conversation with a particular person"
+      ],
+      "states": [
+        "default",
+        "empty",
+        "loading",
+        "error"
+      ],
+      "goes_to": [
+        {
+          "on": "tap a conversation",
+          "screen": "S-02"
+        },
+        {
+          "on": "tap New message",
+          "screen": "S-03"
+        }
+      ]
+    },
+    {
+      "id": "S-02",
+      "name": "Conversation",
+      "purpose": "Read and send messages with one person",
+      "serves": [
+        "Read the latest messages in a conversation",
+        "Send a message"
+      ],
+      "states": [
+        "default",
+        "empty",
+        "loading",
+        "error"
+      ],
+      "goes_to": [
+        {
+          "on": "tap Chats",
+          "screen": "S-01"
+        },
+        {
+          "on": "tap the person's name",
+          "screen": "S-04"
+        }
+      ]
+    },
+    {
+      "id": "S-03",
+      "name": "New message",
+      "purpose": "Choose who to write to",
+      "serves": [
+        "Send a message"
+      ],
+      "states": [
+        "default",
+        "empty"
+      ],
+      "goes_to": [
+        {
+          "on": "choose a person",
+          "screen": "S-02"
+        },
+        {
+          "on": "cancel",
+          "screen": "S-01"
+        }
+      ]
+    },
+    {
+      "id": "S-04",
+      "name": "Person",
+      "purpose": "See who you are talking to; mute or block them",
+      "serves": [],
+      "states": [
+        "default"
+      ],
+      "goes_to": [
+        {
+          "on": "back",
+          "screen": "S-02"
+        }
+      ]
+    }
+  ]
+}

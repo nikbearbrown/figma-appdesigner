@@ -1,0 +1,22 @@
+# STARTER rulebook for app designs, copied into your design folder by `./fad init`.
+# Gate G1 (you confirm or edit it) is PENDING until you say so in step 2 of the tutorial.
+# Tiers: normative = a published standard; heuristic = expert or platform guidance; house = your own rule.
+# Labels follow the tier: normative -> failure, heuristic -> concern, house -> deviation.
+# Sources are named so you can open them. Confirm each one says what this file says before you rely on it.
+- {id: WCAG22-1.4.3, title: Contrast (Minimum), tier: normative, mode: automated, source: "https://www.w3.org/TR/WCAG22/#contrast-minimum", threshold: {text: 4.5, large_text: 3.0}, default_severity: 3, fidelity: visual}
+- {id: WCAG22-1.4.11, title: Non-text Contrast, tier: normative, mode: assisted, source: "https://www.w3.org/TR/WCAG22/#non-text-contrast", threshold: {ratio: 3.0}, default_severity: 3, fidelity: visual}
+- {id: WCAG22-2.5.8, title: Target Size (Minimum), tier: normative, mode: automated, source: "https://www.w3.org/TR/WCAG22/#target-size-minimum", threshold: {min_px: 24, spacing_exception_px: 24}, default_severity: 3, fidelity: visual}
+- {id: HIG-TARGET-44, title: Tap targets at least 44 by 44 points (iOS), tier: heuristic, mode: automated, source: "Apple Human Interface Guidelines, Accessibility", threshold: {min_pt: 44}, applies_to: ios, default_severity: 3, fidelity: visual}
+- {id: M3-TARGET-48, title: Touch targets at least 48 by 48 dp (Android), tier: heuristic, mode: automated, source: "Material Design 3, Accessibility", threshold: {min_dp: 48}, applies_to: android, default_severity: 3, fidelity: visual}
+- {id: HIG-TEXT-11, title: Text no smaller than 11 points (iOS), tier: heuristic, mode: automated, source: "Apple Human Interface Guidelines, Typography", threshold: {min_pt: 11}, applies_to: ios, default_severity: 2, fidelity: visual}
+- {id: NIELSEN-H1, title: Visibility of system status, tier: heuristic, mode: judgment, source: "Nielsen 1994, 10 Usability Heuristics", default_severity: 3, fidelity: behavioral}
+- {id: NIELSEN-H3, title: User control and freedom (a way back, a way to undo), tier: heuristic, mode: judgment, source: "Nielsen 1994, 10 Usability Heuristics", default_severity: 3, fidelity: behavioral}
+- {id: NIELSEN-H4, title: Consistency and standards, tier: heuristic, mode: judgment, source: "Nielsen 1994, 10 Usability Heuristics", default_severity: 2, fidelity: structural}
+- {id: NIELSEN-H6, title: Recognition rather than recall, tier: heuristic, mode: judgment, source: "Nielsen 1994, 10 Usability Heuristics", default_severity: 2, fidelity: structural}
+- {id: NIELSEN-H8, title: Aesthetic and minimalist design, tier: heuristic, mode: judgment, source: "Nielsen 1994, 10 Usability Heuristics", default_severity: 2, fidelity: structural}
+- {id: LAWSOFUX-FITTS, title: "Fitts's law (big, near targets are faster to hit)", tier: heuristic, mode: judgment, source: "lawsofux.com", default_severity: 2, fidelity: structural}
+- {id: LAWSOFUX-HICK, title: "Hick's law (more choices, slower choosing)", tier: heuristic, mode: judgment, source: "lawsofux.com", default_severity: 2, fidelity: structural}
+- {id: HOUSE-STATES, title: "A screen that loads or lists things has its empty, loading and error states drawn", tier: house, mode: automated, source: "figma-appdesigner starter", default_severity: 3, fidelity: structural}
+- {id: HOUSE-ONE-MAIN-ACTION, title: One main action per screen carries the accent color, tier: house, mode: assisted, source: "figma-appdesigner starter", default_severity: 2, fidelity: visual}
+- {id: HOUSE-PALETTE-ONLY, title: "Every color on a screen is a Palette variable, never a loose hex", tier: house, mode: automated, source: "figma-appdesigner starter", default_severity: 2, fidelity: visual}
+- {id: HOUSE-SAFE-AREA, title: "Nothing to read or tap sits under the status bar or the home indicator", tier: house, mode: automated, source: "figma-appdesigner starter", default_severity: 3, fidelity: structural}

@@ -1,0 +1,40 @@
+{
+  "slug": "to-do",
+  "title": "A to-do list",
+  "example_name": "Today List",
+  "teaches": "lists, the empty state, and how big a thing to tap must be",
+  "platform": "ios",
+  "shown_in": "Bear Brown",
+  "draw_first": "S-01",
+  "one_line": "A short list of what to get done today, for one person, kept on the phone.",
+  "people": [
+    "Someone with a handful of things to do today and no patience for setup"
+  ],
+  "top_tasks": [
+    "See what is left to do today",
+    "Add a task in a few seconds",
+    "Mark a task done"
+  ],
+  "templates": {
+    "design": [
+      "https://www.figma.com/community/file/1143575071825582037/task-management-to-do-list-app",
+      "https://www.figma.com/community/file/1175913608782916573"
+    ],
+    "code": [
+      "https://github.com/pointfreeco/swift-composable-architecture/tree/main/Examples/Todos",
+      "https://github.com/peterfriese/MakeItSo",
+      "https://github.com/android/architecture-samples"
+    ]
+  },
+  "drawn": {
+    "date": "2026-11-10",
+    "picture": "docs/tutorials/to-do.png",
+    "measured": [
+      "5 things to tap: four check areas at 44 by 44 points and the button at 348 by 48. All meet the 44-point guidance.",
+      "Smallest text: 13 points (the notes under each task). The floor is 11.",
+      "Faintest text: the secondary text, 5.88:1 against the cream ground. It needs 4.5:1.",
+      "Every color is a variable. Nothing sits under the status bar or the home indicator.",
+      "So this screen came back clean. Ask for the smaller check circles and watch the check catch it."
+    ]
+  }
+}

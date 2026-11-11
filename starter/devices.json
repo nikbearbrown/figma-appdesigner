@@ -1,0 +1,33 @@
+{
+  "note": "These are starting points for drawing, not a device database. Check a size, a safe area or a tap-target rule against the platform's own guidance and a real device before you build.",
+  "devices": [
+    {
+      "id": "iphone",
+      "platform": "ios",
+      "name": "iPhone, 6.1 inch class",
+      "width": 390,
+      "height": 844,
+      "unit": "pt",
+      "safe_top": 47,
+      "safe_bottom": 34,
+      "min_target": 44,
+      "target_source": "Apple Human Interface Guidelines",
+      "min_text": 11,
+      "verify": true
+    },
+    {
+      "id": "android-phone",
+      "platform": "android",
+      "name": "Android phone, compact width",
+      "width": 412,
+      "height": 915,
+      "unit": "dp",
+      "safe_top": 24,
+      "safe_bottom": 24,
+      "min_target": 48,
+      "target_source": "Material Design 3",
+      "min_text": 12,
+      "verify": true
+    }
+  ]
+}

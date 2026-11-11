@@ -1,0 +1,122 @@
+{
+  "draw_first": "S-01",
+  "screens": [
+    {
+      "id": "S-01",
+      "name": "Now",
+      "start": true,
+      "purpose": "See the weather right now and the next hours and days",
+      "serves": [
+        "See the weather right now where I am",
+        "See what the next hours and days look like"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "error"
+      ],
+      "goes_to": [
+        {
+          "on": "tap Cities",
+          "screen": "S-02"
+        },
+        {
+          "on": "tap Add a city",
+          "screen": "S-03"
+        },
+        {
+          "on": "tap a day",
+          "screen": "S-04"
+        },
+        {
+          "on": "first open, no place chosen",
+          "screen": "S-05"
+        }
+      ]
+    },
+    {
+      "id": "S-02",
+      "name": "Cities",
+      "purpose": "Switch to another saved place",
+      "serves": [
+        "Check another city"
+      ],
+      "states": [
+        "default",
+        "empty"
+      ],
+      "goes_to": [
+        {
+          "on": "tap a city",
+          "screen": "S-01"
+        },
+        {
+          "on": "tap Add",
+          "screen": "S-03"
+        }
+      ]
+    },
+    {
+      "id": "S-03",
+      "name": "Add a city",
+      "purpose": "Search for a place and save it",
+      "serves": [
+        "Check another city"
+      ],
+      "states": [
+        "default",
+        "empty",
+        "loading",
+        "error"
+      ],
+      "goes_to": [
+        {
+          "on": "choose a place",
+          "screen": "S-01"
+        },
+        {
+          "on": "cancel",
+          "screen": "S-02"
+        }
+      ]
+    },
+    {
+      "id": "S-04",
+      "name": "Day",
+      "purpose": "See one day hour by hour",
+      "serves": [
+        "See what the next hours and days look like"
+      ],
+      "states": [
+        "default"
+      ],
+      "goes_to": [
+        {
+          "on": "back",
+          "screen": "S-01"
+        }
+      ]
+    },
+    {
+      "id": "S-05",
+      "name": "Where are you?",
+      "purpose": "Share your location or type a city instead",
+      "serves": [
+        "See the weather right now where I am"
+      ],
+      "states": [
+        "default"
+      ],
+      "goes_to": [
+        {
+          "on": "allow location",
+          "screen": "S-01"
+        },
+        {
+          "on": "type a city",
+          "screen": "S-03"
+        }
+      ]
+    }
+  ]
+}

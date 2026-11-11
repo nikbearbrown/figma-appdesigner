@@ -1,0 +1,41 @@
+{
+  "slug": "chat",
+  "title": "A chat app",
+  "example_name": "Hello Chat",
+  "teaches": "a conversation, a text box that stays reachable, and telling two speakers apart without color",
+  "platform": "ios",
+  "shown_in": "Humanitarians AI",
+  "draw_first": "S-02",
+  "one_line": "One-to-one messages between people who already know each other.",
+  "people": [
+    "Two friends making a plan"
+  ],
+  "top_tasks": [
+    "Read the latest messages in a conversation",
+    "Send a message",
+    "Find the conversation with a particular person"
+  ],
+  "templates": {
+    "design": [
+      "https://www.figma.com/community/file/1363554871805689478/text-chat-bubbles-ui-kit-for-figma",
+      "https://www.figma.com/community/file/1171349248796492917/messaging-chatbox-app-design"
+    ],
+    "code": [
+      "https://github.com/exyte/Chat",
+      "https://github.com/QuickBirdEng/SwiftUI-Architectures",
+      "https://github.com/android/compose-samples/tree/main/Jetchat",
+      "https://github.com/FaridSafi/react-native-gifted-chat"
+    ]
+  },
+  "drawn": {
+    "date": "2026-11-10",
+    "picture": "docs/tutorials/chat.png",
+    "measured": [
+      "3 things to tap: \"Chats\" at 61 by 44 points, the text box at 256 by 44, and \"Send\" at 84 by 48. All meet the 44-point guidance.",
+      "Smallest text: 12 points (who and when, under each message). The floor is 11.",
+      "Faintest text: 8.03:1. It needs 4.5:1.",
+      "Every color is a variable. Nothing sits under the status bar or the home indicator.",
+      "Clean. The interesting questions here are the ones the check cannot answer: the keyboard, and a failed message."
+    ]
+  }
+}

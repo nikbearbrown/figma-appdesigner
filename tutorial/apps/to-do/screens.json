@@ -1,0 +1,86 @@
+{
+  "draw_first": "S-01",
+  "screens": [
+    {
+      "id": "S-01",
+      "name": "Today",
+      "start": true,
+      "purpose": "See what is left today and tick things off",
+      "serves": [
+        "See what is left to do today",
+        "Mark a task done"
+      ],
+      "states": [
+        "default",
+        "empty"
+      ],
+      "goes_to": [
+        {
+          "on": "tap Add a task",
+          "screen": "S-02"
+        },
+        {
+          "on": "tap a task",
+          "screen": "S-03"
+        },
+        {
+          "on": "tap Show finished",
+          "screen": "S-04"
+        }
+      ]
+    },
+    {
+      "id": "S-02",
+      "name": "Add a task",
+      "purpose": "Type a task and, if you want, when it is due",
+      "serves": [
+        "Add a task in a few seconds"
+      ],
+      "states": [
+        "default",
+        "error"
+      ],
+      "goes_to": [
+        {
+          "on": "save",
+          "screen": "S-01"
+        },
+        {
+          "on": "cancel",
+          "screen": "S-01"
+        }
+      ]
+    },
+    {
+      "id": "S-03",
+      "name": "Task",
+      "purpose": "Change a task or delete it",
+      "serves": [],
+      "states": [
+        "default"
+      ],
+      "goes_to": [
+        {
+          "on": "back",
+          "screen": "S-01"
+        }
+      ]
+    },
+    {
+      "id": "S-04",
+      "name": "Finished",
+      "purpose": "Look back at what you got done",
+      "serves": [],
+      "states": [
+        "default",
+        "empty"
+      ],
+      "goes_to": [
+        {
+          "on": "back",
+          "screen": "S-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1374 @@
+{
+  "checked": "2026-11-10",
+  "how": "Each publisher page, GitHub repo (through the gh API) and public Figma Community page was opened without signing in and the licence read from it; Figma started showing a human-verification check partway through, so later Figma files are recorded from the search results only and marked unchecked.",
+  "second_check": "2026-11-10, a second pass after the search: (1) the 27 GitHub-hosted entries were re-checked against GitHub's own licence field; all 27 exist and none is archived. (2) The 10 Penpot entries were changed to licence-not-confirmed, because their CC-BY-4.0 comes from a README line, not a licence file or the item's own page. (3) 26 Figma Community file pages the search could not open were opened and their licence line read (25 say CC BY 4.0, 1 is Apple's design-resources licence). Figma then showed a human-verification check, so the remaining Figma entries stay unconfirmed. Nobody signed in or completed that check.",
+  "entries": [
+    {
+      "name": "Material 3 Design Kit",
+      "url": "https://www.figma.com/community/file/1035203688168086460/material-3-design-kit",
+      "by": "Google (Material Design)",
+      "kind": "official kit",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "android",
+        "web"
+      ],
+      "what": "Google's Material 3 kit: styles, variables for color, typography and state layers, components including M3 Expressive, Jetpack Compose snippets and example screens; v1.25 dated May 2026 (page shows 1.15m users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "The page also says that downloading the file means agreeing to the Google Terms of Service.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Material 3 Design Kit, by Google (Material Design). Licence: CC-BY-4.0. https://www.figma.com/community/file/1035203688168086460/material-3-design-kit"
+    },
+    {
+      "name": "Material Symbols",
+      "url": "https://github.com/google/material-design-icons",
+      "by": "Google",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Google's icon set in Outlined, Rounded and Sharp styles, shipped as SVGs and variable fonts with a fill axis.",
+      "license": "Apache-2.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Material Symbols, by Google. Licence: Apache-2.0. https://github.com/google/material-design-icons"
+    },
+    {
+      "name": "Fluent System Icons",
+      "url": "https://github.com/microsoft/fluentui-system-icons",
+      "by": "Microsoft",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Microsoft's icon collection in regular and filled styles, packaged for Android, iOS, Flutter and as SVG.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Fluent System Icons, by Microsoft. Licence: MIT. https://github.com/microsoft/fluentui-system-icons"
+    },
+    {
+      "name": "Flowbite Figma design system (free edition)",
+      "url": "https://github.com/themesberg/tailwind-figma-ui-kit",
+      "by": "Themesberg (Flowbite)",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "web"
+      ],
+      "what": "Tailwind-based Figma kit: components built with variants and auto layout, a style guide, and responsive example pages for mobile, tablet and desktop.",
+      "license": "CC0-1.0",
+      "license_checked": true,
+      "limits": "The full version (27 pages, more screens and advanced components) is sold at flowbite.com.",
+      "free": "free tier of a paid kit",
+      "page_loaded": true,
+      "credit": "Flowbite Figma design system (free edition), by Themesberg (Flowbite). Licence: CC0-1.0. https://github.com/themesberg/tailwind-figma-ui-kit"
+    },
+    {
+      "name": "Figma Admin Dashboard Template (free version)",
+      "url": "https://github.com/themesberg/figma-admin-dashboard-template",
+      "by": "Themesberg",
+      "kind": "ui kit",
+      "app_kind": "dashboard",
+      "format": ".fig",
+      "platforms": [
+        "web"
+      ],
+      "what": "Open-source Figma kit for application UI and admin dashboards: buttons, badges, navbars built with variants and auto layout, a Tailwind-style guide and mobile screen examples.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "The README says the .fig file is downloaded from Themesberg after creating a free account; a public Figma preview link is in the README.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Figma Admin Dashboard Template (free version), by Themesberg. Licence: MIT. https://github.com/themesberg/figma-admin-dashboard-template"
+    },
+    {
+      "name": "USWDS Design Kit",
+      "url": "https://github.com/uswds/uswds-for-designers",
+      "by": "U.S. General Services Administration",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": ".fig and sketch (zip); Figma Community beta file",
+      "platforms": [
+        "web"
+      ],
+      "what": "U.S. Web Design System components and styles for designers, as a Figma and Sketch download plus a beta Figma Community file.",
+      "license": "Public domain / CC0-1.0 for GSA work, with exceptions",
+      "license_checked": true,
+      "limits": "Bundled fonts and icons keep their own licences (SIL OFL 1.1, Apache-2.0, and MIT for some files). Built for government websites, not native apps.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "USWDS Design Kit, by U.S. General Services Administration. Licence: Public domain / CC0-1.0 for GSA work, with exceptions. https://github.com/uswds/uswds-for-designers"
+    },
+    {
+      "name": "Primer Primitives",
+      "url": "https://github.com/primer/primitives",
+      "by": "GitHub",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "tokens",
+      "platforms": [
+        "web"
+      ],
+      "what": "GitHub's color, typography and spacing primitives as JSON design tokens.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "Tokens only, no screens.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Primer Primitives, by GitHub. Licence: MIT. https://github.com/primer/primitives"
+    },
+    {
+      "name": "Radix Themes components for Figma (unofficial)",
+      "url": "https://www.figma.com/community/file/1280428825266545105",
+      "by": "Victor Allegret",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "web"
+      ],
+      "what": "Community-made Figma components for Radix Themes, the only Figma resource linked from the Radix Themes resources page.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Unofficial. File page not opened; licence unconfirmed.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Radix Themes components for Figma (unofficial), by Victor Allegret. Licence: CC-BY-4.0. https://www.figma.com/community/file/1280428825266545105"
+    },
+    {
+      "name": "RNUI library (react-native-ui-lib)",
+      "url": "https://www.figma.com/community/file/1379775092983284111/rnui-library",
+      "by": "Wix",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Figma library that matches Wix's React Native UI component library, linked from the repo README.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Figma page not opened. The code repo is MIT; the Figma file's own licence is unconfirmed.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "RNUI library (react-native-ui-lib), by Wix. Licence: CC-BY-4.0. https://www.figma.com/community/file/1379775092983284111/rnui-library"
+    },
+    {
+      "name": "Arco Design Mobile Figma component library",
+      "url": "https://www.figma.com/community/file/1143750379727993941",
+      "by": "ByteDance (Arco Design)",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Figma component library for Arco Design Mobile, a React mobile UI library, linked from the repo README.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Figma page not opened. The code repo is MIT; the Figma file's own licence is unconfirmed.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Arco Design Mobile Figma component library, by ByteDance (Arco Design). Licence: CC-BY-4.0. https://www.figma.com/community/file/1143750379727993941"
+    },
+    {
+      "name": "TDesign design resources",
+      "url": "https://github.com/Tencent/tdesign",
+      "by": "Tencent",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "figma community, sketch, axure, adobe xd",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Tencent's enterprise design system; the README links Figma files (figma.com/@tencent) and Sketch, Axure and Adobe XD resources for its component libraries, which include mobile ones.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "MIT is the repository licence. The design files are hosted elsewhere; those pages would not load as text, so their own terms are unconfirmed.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "TDesign design resources, by Tencent. Licence: MIT. https://github.com/Tencent/tdesign"
+    },
+    {
+      "name": "Vitamin (Decathlon design system)",
+      "url": "https://github.com/Decathlon/vitamin-design",
+      "by": "Decathlon",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [],
+      "what": "Decathlon's design system repo; the README links its public Figma libraries (figma.com/@decathlon) and the Vitamix icon set based on Remix Icon.",
+      "license": "Apache-2.0",
+      "license_checked": true,
+      "limits": "Apache-2.0 is the repository licence; the Figma libraries were not opened and platform coverage is not stated in the README. Decathlon branding is not yours to reuse.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Vitamin (Decathlon design system), by Decathlon. Licence: Apache-2.0. https://github.com/Decathlon/vitamin-design"
+    },
+    {
+      "name": "GOV.UK Frontend",
+      "url": "https://github.com/alphagov/govuk-frontend",
+      "by": "UK Government Digital Service",
+      "kind": "design system",
+      "app_kind": "any",
+      "format": "tokens",
+      "platforms": [
+        "web"
+      ],
+      "what": "Code, styles and settings behind the GOV.UK Design System: a reference for clear form, list and step-by-step page patterns.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "No official Figma kit: the Design System's resources page lists only community tools that the GOV.UK team does not support. Built for government websites.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "GOV.UK Frontend, by UK Government Digital Service. Licence: MIT. https://github.com/alphagov/govuk-frontend"
+    },
+    {
+      "name": "Lucide",
+      "url": "https://lucide.dev/license",
+      "by": "Lucide contributors",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Community-made open icon set, a fork of Feather, with a consistent stroke style.",
+      "license": "ISC",
+      "license_checked": true,
+      "limits": "A listed group of icons derived from Feather stays under the MIT licence.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Lucide, by Lucide contributors. Licence: ISC. https://lucide.dev/license"
+    },
+    {
+      "name": "Phosphor Icons",
+      "url": "https://github.com/phosphor-icons/homepage",
+      "by": "Phosphor Icons",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "1,248 icons in six weights (thin, light, regular, bold, fill, duotone), with Figma, Penpot and Sketch plugins.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Phosphor Icons, by Phosphor Icons. Licence: MIT. https://github.com/phosphor-icons/homepage"
+    },
+    {
+      "name": "Heroicons",
+      "url": "https://heroicons.com/",
+      "by": "Tailwind Labs",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "316 icons in four styles (outline, solid, mini, micro); the site links a Figma Community file.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Heroicons, by Tailwind Labs. Licence: MIT. https://heroicons.com/"
+    },
+    {
+      "name": "Tabler Icons",
+      "url": "https://github.com/tabler/tabler-icons",
+      "by": "Tabler",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "6,287 icons on a 24x24 grid with a 2px stroke.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Tabler Icons, by Tabler. Licence: MIT. https://github.com/tabler/tabler-icons"
+    },
+    {
+      "name": "Feather",
+      "url": "https://github.com/feathericons/feather",
+      "by": "Cole Bemis",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Small open-source set of simple line icons; last repo push March 2025.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Feather, by Cole Bemis. Licence: MIT. https://github.com/feathericons/feather"
+    },
+    {
+      "name": "Ionicons",
+      "url": "https://github.com/ionic-team/ionicons",
+      "by": "Ionic",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "1,300 icons made for web, iOS, Android and desktop apps, with both Material Design and iOS versions.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Ionicons, by Ionic. Licence: MIT. https://github.com/ionic-team/ionicons"
+    },
+    {
+      "name": "Bootstrap Icons",
+      "url": "https://github.com/twbs/icons",
+      "by": "Bootstrap",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Over 2,000 icons; the README links the official Bootstrap Icons Figma Community file.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Bootstrap Icons, by Bootstrap. Licence: MIT. https://github.com/twbs/icons"
+    },
+    {
+      "name": "Octicons",
+      "url": "https://github.com/primer/octicons",
+      "by": "GitHub",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "GitHub's icon set; a Figma Community file is linked from the Primer Figma repo.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Octicons, by GitHub. Licence: MIT. https://github.com/primer/octicons"
+    },
+    {
+      "name": "Iconoir",
+      "url": "https://github.com/iconoir-icons/iconoir",
+      "by": "Iconoir",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "1,600+ icons; the README links a Figma Community file (Iconoir Pack).",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Iconoir, by Iconoir. Licence: MIT. https://github.com/iconoir-icons/iconoir"
+    },
+    {
+      "name": "Radix Icons",
+      "url": "https://github.com/radix-ui/icons",
+      "by": "WorkOS",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "A crisp set of 15x15 icons.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "Designed at 15px, smaller than the usual 24px mobile grid.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Radix Icons, by WorkOS. Licence: MIT. https://github.com/radix-ui/icons"
+    },
+    {
+      "name": "Boxicons",
+      "url": "https://github.com/box-icons/boxicons",
+      "by": "Boxicons",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Web-friendly icon set.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Boxicons, by Boxicons. Licence: MIT. https://github.com/box-icons/boxicons"
+    },
+    {
+      "name": "Eva Icons",
+      "url": "https://github.com/akveo/eva-icons",
+      "by": "Akveo",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg, sketch",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "More than 480 icons with SVG, Sketch and web font support; last repo push March 2023.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "The matching Eva Design System Figma file is paid, so it is not listed.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Eva Icons, by Akveo. Licence: MIT. https://github.com/akveo/eva-icons"
+    },
+    {
+      "name": "Simple Icons",
+      "url": "https://github.com/simple-icons/simple-icons",
+      "by": "Simple Icons",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "SVG icons for popular brands, useful for 'sign in with' buttons and share sheets.",
+      "license": "CC0-1.0",
+      "license_checked": true,
+      "limits": "These are brand logos: CC0 covers the SVG files, and each brand's own trademark rules still apply.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Simple Icons, by Simple Icons. Licence: CC0-1.0. https://github.com/simple-icons/simple-icons"
+    },
+    {
+      "name": "Fluent UI Emoji",
+      "url": "https://github.com/microsoft/fluentui-emoji",
+      "by": "Microsoft",
+      "kind": "icons",
+      "app_kind": "any",
+      "format": "svg",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Microsoft's emoji collection, useful for reactions and empty states.",
+      "license": "MIT",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Fluent UI Emoji, by Microsoft. Licence: MIT. https://github.com/microsoft/fluentui-emoji"
+    },
+    {
+      "name": "Bloo Lo-Fi Wireframe Kit",
+      "url": "https://bloouikit.com",
+      "by": "Bloo UI Kit",
+      "kind": "wireframe kit",
+      "app_kind": "any",
+      "format": "figma, sketch, adobe xd",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Open-source low-fidelity kit: 250+ components with dark mode, 150+ ready-made mobile screen templates and 10+ flowchart and arrow examples.",
+      "license": "CC0-1.0",
+      "license_checked": true,
+      "limits": "Download links are bit.ly short links that were not followed.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Bloo Lo-Fi Wireframe Kit, by Bloo UI Kit. Licence: CC0-1.0. https://bloouikit.com"
+    },
+    {
+      "name": "Paper Wireframe Kit",
+      "url": "https://www.figma.com/community/file/1075811850250564922",
+      "by": "Method",
+      "kind": "wireframe kit",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Paper-prototype-style kit: a limited set of text styles, UI components and simple phone frames in black, white and grey with a handwritten font.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Read from Method's article only; the Figma file page was not opened, so the licence is unconfirmed.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Paper Wireframe Kit, by Method. Licence: CC-BY-4.0. https://www.figma.com/community/file/1075811850250564922"
+    },
+    {
+      "name": "Wireframes for mobile UI design",
+      "url": "https://www.figma.com/community/file/848318135747364351",
+      "by": "not named on the listing",
+      "kind": "wireframe kit",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Clean mobile wireframe layouts, listed as free on uistore.design, which links to this Figma Community file.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Read from the uistore.design listing only; the Figma file page was not opened.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Wireframes for mobile UI design, by not named on the listing. Licence: CC-BY-4.0. https://www.figma.com/community/file/848318135747364351"
+    },
+    {
+      "name": "Mobile App Wireframes UI Kit",
+      "url": "https://www.figma.com/community/file/1558229979788947808",
+      "by": "BRIX Agency",
+      "kind": "wireframe kit",
+      "app_kind": "any",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (137 likes, 3.5k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Mobile App Wireframes UI Kit, by BRIX Agency. Licence: CC-BY-4.0. https://www.figma.com/community/file/1558229979788947808"
+    },
+    {
+      "name": "Food delivery app WireFrames",
+      "url": "https://www.figma.com/community/file/1128214085144334880/food-delivery-app-wireframes",
+      "by": "Mansi Shah",
+      "kind": "wireframe kit",
+      "app_kind": "food delivery",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Wireframes for a food delivery app; the page has no description (15.3k users, last updated 4 years ago).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Food delivery app WireFrames, by Mansi Shah. Licence: CC-BY-4.0. https://www.figma.com/community/file/1128214085144334880/food-delivery-app-wireframes"
+    },
+    {
+      "name": "The Wireframe Kit",
+      "url": "https://github.com/elwinvdhazel/The-Wireframe-Kit",
+      "by": "Elwin van den Hazel",
+      "kind": "wireframe kit",
+      "app_kind": "any",
+      "format": "sketch",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Lightweight Sketch wireframe library for app and web projects, meant to be paired with Material icons.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Sketch only; last pushed December 2019.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "The Wireframe Kit, by Elwin van den Hazel. Licence: CC-BY-4.0. https://github.com/elwinvdhazel/The-Wireframe-Kit"
+    },
+    {
+      "name": "Teracy wireframe kit",
+      "url": "https://github.com/teracyhq/wireframe",
+      "by": "Teracy",
+      "kind": "wireframe kit",
+      "app_kind": "any",
+      "format": "sketch",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "what": "Free Sketch wireframe kit built from reusable symbols, with 140+ icons.",
+      "license": "BSD-3-Clause",
+      "license_checked": true,
+      "limits": "Sketch only and old (last pushed December 2014).",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Teracy wireframe kit, by Teracy. Licence: BSD-3-Clause. https://github.com/teracyhq/wireframe"
+    },
+    {
+      "name": "Designers Italia wireframe kit",
+      "url": "https://github.com/italia/design-wireframe-kit",
+      "by": "Designers Italia (Italian government)",
+      "kind": "wireframe kit",
+      "app_kind": "any",
+      "format": "sketch",
+      "platforms": [
+        "web"
+      ],
+      "what": "Official Italian low-fidelity kit: page templates and components for prototyping digital public services, distributed as one Sketch library.",
+      "license": "BSD-3-Clause",
+      "license_checked": true,
+      "limits": "Sketch only; aimed at public-service websites, mobile coverage not stated.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Designers Italia wireframe kit, by Designers Italia (Italian government). Licence: BSD-3-Clause. https://github.com/italia/design-wireframe-kit"
+    },
+    {
+      "name": "Task management and to-do list app",
+      "url": "https://www.figma.com/community/file/1143575071825582037/task-management-to-do-list-app",
+      "by": "Neser U.",
+      "kind": "app template",
+      "app_kind": "to-do",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Task management and to-do list app: 4 screens with organized layers, for Android and iOS (126k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Task management and to-do list app, by Neser U.. Licence: CC-BY-4.0. https://www.figma.com/community/file/1143575071825582037/task-management-to-do-list-app"
+    },
+    {
+      "name": "Notes App UI",
+      "url": "https://www.figma.com/community/file/1014161465589596715/notes-app-ui",
+      "by": "Divya",
+      "kind": "app template",
+      "app_kind": "notes",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Notes app screens; the page gives no screen count (8.4k users, last updated 5 years ago).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Notes App UI, by Divya. Licence: CC-BY-4.0. https://www.figma.com/community/file/1014161465589596715/notes-app-ui"
+    },
+    {
+      "name": "Makarya Notes (free version)",
+      "url": "https://www.figma.com/community/file/1090245813253623841/free-version-makarya-notes-advanced-note-taking-app-design-system-ui-kit",
+      "by": "Fariz Ikhsan",
+      "kind": "ui kit",
+      "app_kind": "notes",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Design system and UI kit for a note-taking app: atom-to-organism components, resizable screens, named layers and an interactive prototype.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Titled 'Free Version'; what the paid version adds is not stated on the page.",
+      "free": "free tier of a paid kit",
+      "page_loaded": true,
+      "credit": "Makarya Notes (free version), by Fariz Ikhsan. Licence: CC-BY-4.0. https://www.figma.com/community/file/1090245813253623841/free-version-makarya-notes-advanced-note-taking-app-design-system-ui-kit"
+    },
+    {
+      "name": "Messaging - Chatbox App Design",
+      "url": "https://www.figma.com/community/file/1171349248796492917/messaging-chatbox-app-design",
+      "by": "Benzatine Infotech",
+      "kind": "app template",
+      "app_kind": "chat",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Light-mode chat app design with modular components; no screen count stated (27.2k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Messaging - Chatbox App Design, by Benzatine Infotech. Licence: CC-BY-4.0. https://www.figma.com/community/file/1171349248796492917/messaging-chatbox-app-design"
+    },
+    {
+      "name": "Text Chat Bubbles UI Kit",
+      "url": "https://www.figma.com/community/file/1363554871805689478/text-chat-bubbles-ui-kit-for-figma",
+      "by": "Edwin Zainudin",
+      "kind": "ui kit",
+      "app_kind": "chat",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Chat bubble kit built with auto layout and variants for mobile messaging screens, with themes styled after popular chat apps.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "The themes imitate well-known apps: fine for mock conversations, not a source of brand assets.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Text Chat Bubbles UI Kit, by Edwin Zainudin. Licence: CC-BY-4.0. https://www.figma.com/community/file/1363554871805689478/text-chat-bubbles-ui-kit-for-figma"
+    },
+    {
+      "name": "eCommerce App UI Kit - Case Study",
+      "url": "https://www.figma.com/community/file/1264098337558102933/ecommerce-app-ui-kit-case-study-ecommerce-mobile-app-ui-kit",
+      "by": "UI-UX Expert (Aashifa)",
+      "kind": "ui kit",
+      "app_kind": "e-commerce",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "E-commerce mobile app kit with a case study; no screen count stated (105k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "eCommerce App UI Kit - Case Study, by UI-UX Expert (Aashifa). Licence: CC-BY-4.0. https://www.figma.com/community/file/1264098337558102933/ecommerce-app-ui-kit-case-study-ecommerce-mobile-app-ui-kit"
+    },
+    {
+      "name": "Mobile eCommerce Clothing Store App Design",
+      "url": "https://www.figma.com/community/file/1169625825293818878/mobile-ecommerce-clothing-store-app-design",
+      "by": "Bony Fasius Gultom",
+      "kind": "app template",
+      "app_kind": "e-commerce",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "'ChicCraze' clothing store app: the page lists 3 main screens and a tutorial video (44.9k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only 3 screens. The page text mentions a purchase option that was not read in full.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Mobile eCommerce Clothing Store App Design, by Bony Fasius Gultom. Licence: CC-BY-4.0. https://www.figma.com/community/file/1169625825293818878/mobile-ecommerce-clothing-store-app-design"
+    },
+    {
+      "name": "Food Delivery App",
+      "url": "https://www.figma.com/community/file/1231521889522325040/food-delivery-app",
+      "by": "Yamesh_SB",
+      "kind": "ui kit",
+      "app_kind": "food delivery",
+      "format": "figma community",
+      "platforms": [
+        "ios"
+      ],
+      "what": "Food delivery iOS kit: 50+ screens plus 10 chef screens, with global color and font styles (131k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Food Delivery App, by Yamesh_SB. Licence: CC-BY-4.0. https://www.figma.com/community/file/1231521889522325040/food-delivery-app"
+    },
+    {
+      "name": "Food delivery app UI kit",
+      "url": "https://www.figma.com/community/file/893381127703378146/food-delivery-app-ui-kit",
+      "by": "Marvis",
+      "kind": "ui kit",
+      "app_kind": "food delivery",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Complete UI kit for a food app called 'bella Onoje'; no screen count stated (183k users, last updated 5 years ago).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Food delivery app UI kit, by Marvis. Licence: CC-BY-4.0. https://www.figma.com/community/file/893381127703378146/food-delivery-app-ui-kit"
+    },
+    {
+      "name": "Fitness App UI Kit for Gym Workout App",
+      "url": "https://www.figma.com/community/file/1356281690251535631/fitness-app-ui-kit-for-gym-workout-app-fitness-tracker-mobile-app-gym-fitness-mobile-app-ui-kit",
+      "by": "Vectorfair",
+      "kind": "ui kit",
+      "app_kind": "fitness",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Gym and fitness tracker kit: 93 screens (sign-up, home, workout modules, progress tracking) and 50+ components and variants (60k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Fitness App UI Kit for Gym Workout App, by Vectorfair. Licence: CC-BY-4.0. https://www.figma.com/community/file/1356281690251535631/fitness-app-ui-kit-for-gym-workout-app-fitness-tracker-mobile-app-gym-fitness-mobile-app-ui-kit"
+    },
+    {
+      "name": "Health Fitness Workout App (freebie prototype)",
+      "url": "https://www.figma.com/community/file/977207453380268315/health-fitness-workout-app-freebie-prototype",
+      "by": "Sajid",
+      "kind": "app template",
+      "app_kind": "fitness",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Fitness app design with a prototype for tracking daily activity and learning workout plans; no screen count stated (17.3k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Health Fitness Workout App (freebie prototype), by Sajid. Licence: CC-BY-4.0. https://www.figma.com/community/file/977207453380268315/health-fitness-workout-app-freebie-prototype"
+    },
+    {
+      "name": "Routiner - Habit Tracker App",
+      "url": "https://www.figma.com/community/file/1259830883743258437/routiner-habit-tracker-app",
+      "by": "Mert Kahveci",
+      "kind": "app template",
+      "app_kind": "habit tracker",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "The main screens of a habit tracker, designed after user testing; no screen count stated (12.9k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Routiner - Habit Tracker App, by Mert Kahveci. Licence: CC-BY-4.0. https://www.figma.com/community/file/1259830883743258437/routiner-habit-tracker-app"
+    },
+    {
+      "name": "Financy - Fintech App",
+      "url": "https://www.figma.com/community/file/1144207300426743287/financy-fintech-app",
+      "by": "Nickelfox Design",
+      "kind": "app template",
+      "app_kind": "finance / budget",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Personal finance and expense tracker app design; no screen count stated (23.9k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "A commenter on the page calls the file a teaser for a paid design; the contents were not inspected.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Financy - Fintech App, by Nickelfox Design. Licence: CC-BY-4.0. https://www.figma.com/community/file/1144207300426743287/financy-fintech-app"
+    },
+    {
+      "name": "Wpay - E-Wallet Mobile App UI Kit",
+      "url": "https://www.figma.com/community/file/1181885515471919522/free-wpay-e-wallet-mobile-app-ui-kit",
+      "by": "Illiyin Studio",
+      "kind": "ui kit",
+      "app_kind": "banking / wallet",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "E-wallet, e-banking and payment app kit described as an atomic UI design kit; no screen count stated (23.1k users).",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "The author's reply in the comments says a version that is easy to customise is sold on UI8.",
+      "free": "free tier of a paid kit",
+      "page_loaded": true,
+      "credit": "Wpay - E-Wallet Mobile App UI Kit, by Illiyin Studio. Licence: CC-BY-4.0. https://www.figma.com/community/file/1181885515471919522/free-wpay-e-wallet-mobile-app-ui-kit"
+    },
+    {
+      "name": "Todo Mobile App (Community)",
+      "url": "https://www.figma.com/community/file/1175913608782916573",
+      "by": "Jenelle Miller",
+      "kind": "app template",
+      "app_kind": "to-do",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (78 likes, 3.1k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Todo Mobile App (Community), by Jenelle Miller. Licence: CC-BY-4.0. https://www.figma.com/community/file/1175913608782916573"
+    },
+    {
+      "name": "3 Free Chat and Messaging App UI",
+      "url": "https://www.figma.com/community/file/1393819128640951876",
+      "by": "slothUI",
+      "kind": "app template",
+      "app_kind": "chat",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (43 likes, 2.2k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "3 Free Chat and Messaging App UI, by slothUI. Licence: CC-BY-4.0. https://www.figma.com/community/file/1393819128640951876"
+    },
+    {
+      "name": "Kutuku - eCommerce Mobile App UI Kit",
+      "url": "https://www.figma.com/community/file/1336401686330952405",
+      "by": "Divus Motion",
+      "kind": "ui kit",
+      "app_kind": "e-commerce",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (541 likes); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Kutuku - eCommerce Mobile App UI Kit, by Divus Motion. Licence: CC-BY-4.0. https://www.figma.com/community/file/1336401686330952405"
+    },
+    {
+      "name": "Habit Tracker App Ui Kit (Community)",
+      "url": "https://www.figma.com/community/file/1038427135002942690",
+      "by": "Jahid Hasan",
+      "kind": "ui kit",
+      "app_kind": "habit tracker",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (98 likes, 3.8k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Habit Tracker App Ui Kit (Community), by Jahid Hasan. Licence: CC-BY-4.0. https://www.figma.com/community/file/1038427135002942690"
+    },
+    {
+      "name": "Expense Tracker / Finance Manager App UI Design Template",
+      "url": "https://www.figma.com/community/file/1464636693593860231",
+      "by": "Yousuf Raza",
+      "kind": "app template",
+      "app_kind": "finance / budget",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (23 likes, 2k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Expense Tracker / Finance Manager App UI Design Template, by Yousuf Raza. Licence: CC-BY-4.0. https://www.figma.com/community/file/1464636693593860231"
+    },
+    {
+      "name": "(FREE) Banking Wallet iOS App Design",
+      "url": "https://www.figma.com/community/file/1220931687970577811",
+      "by": "Peterdraw",
+      "kind": "app template",
+      "app_kind": "banking / wallet",
+      "format": "figma community",
+      "platforms": [
+        "ios"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (52 likes, 4.2k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "(FREE) Banking Wallet iOS App Design, by Peterdraw. Licence: CC-BY-4.0. https://www.figma.com/community/file/1220931687970577811"
+    },
+    {
+      "name": "Social Media App",
+      "url": "https://www.figma.com/community/file/1096790122416342536",
+      "by": "Sourasith",
+      "kind": "app template",
+      "app_kind": "social feed",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (595 likes, 17.5k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Social Media App, by Sourasith. Licence: CC-BY-4.0. https://www.figma.com/community/file/1096790122416342536"
+    },
+    {
+      "name": "Social Mate: A Social Media Application Design",
+      "url": "https://www.figma.com/community/file/1164103907030501213",
+      "by": "Rayhan Nasir",
+      "kind": "app template",
+      "app_kind": "social feed",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (232 likes, 11k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Social Mate: A Social Media Application Design, by Rayhan Nasir. Licence: CC-BY-4.0. https://www.figma.com/community/file/1164103907030501213"
+    },
+    {
+      "name": "Weather App UI Design",
+      "url": "https://www.figma.com/community/file/1100826294536456295",
+      "by": "Aksonvady",
+      "kind": "app template",
+      "app_kind": "weather",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (2.8k likes, 103k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Weather App UI Design, by Aksonvady. Licence: CC-BY-4.0. https://www.figma.com/community/file/1100826294536456295"
+    },
+    {
+      "name": "Weather Forecast App",
+      "url": "https://www.figma.com/community/file/885501292477669105",
+      "by": "Farhan",
+      "kind": "app template",
+      "app_kind": "weather",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (393 likes, 19.6k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Weather Forecast App, by Farhan. Licence: CC-BY-4.0. https://www.figma.com/community/file/885501292477669105"
+    },
+    {
+      "name": "News App UI Design | Mobile App",
+      "url": "https://www.figma.com/community/file/1118443983337864611",
+      "by": "Rajdeep Banik",
+      "kind": "app template",
+      "app_kind": "news",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (293 likes, 34.6k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "News App UI Design | Mobile App, by Rajdeep Banik. Licence: CC-BY-4.0. https://www.figma.com/community/file/1118443983337864611"
+    },
+    {
+      "name": "News App UI Kit",
+      "url": "https://www.figma.com/community/file/1124866650532997688",
+      "by": "Hujan",
+      "kind": "ui kit",
+      "app_kind": "news",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (139 likes, 7.7k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "News App UI Kit, by Hujan. Licence: CC-BY-4.0. https://www.figma.com/community/file/1124866650532997688"
+    },
+    {
+      "name": "Dark mode music player App",
+      "url": "https://www.figma.com/community/file/1009743388081867122",
+      "by": "JUNJIE",
+      "kind": "app template",
+      "app_kind": "music / podcast",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (143 likes, 8.4k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Dark mode music player App, by JUNJIE. Licence: CC-BY-4.0. https://www.figma.com/community/file/1009743388081867122"
+    },
+    {
+      "name": "Music Player App Freebie",
+      "url": "https://www.figma.com/community/file/962042174343638767",
+      "by": "Atiqur Rahaman",
+      "kind": "app template",
+      "app_kind": "music / podcast",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (137 likes, 8.1k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Music Player App Freebie, by Atiqur Rahaman. Licence: CC-BY-4.0. https://www.figma.com/community/file/962042174343638767"
+    },
+    {
+      "name": "Podcast App",
+      "url": "https://www.figma.com/community/file/1225763587347770064",
+      "by": "Nickelfox Design",
+      "kind": "app template",
+      "app_kind": "music / podcast",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (104 likes, 3.6k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Podcast App, by Nickelfox Design. Licence: CC-BY-4.0. https://www.figma.com/community/file/1225763587347770064"
+    },
+    {
+      "name": "3 Free Video Streaming App UI",
+      "url": "https://www.figma.com/community/file/1393876552245481056",
+      "by": "slothUI",
+      "kind": "app template",
+      "app_kind": "video",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (53 likes, 1.8k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "3 Free Video Streaming App UI, by slothUI. Licence: CC-BY-4.0. https://www.figma.com/community/file/1393876552245481056"
+    },
+    {
+      "name": "Skateboard Video Streaming - App",
+      "url": "https://www.figma.com/community/file/999572740764313959",
+      "by": "Dwinawan",
+      "kind": "app template",
+      "app_kind": "video",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (226 likes, 8.6k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Skateboard Video Streaming - App, by Dwinawan. Licence: CC-BY-4.0. https://www.figma.com/community/file/999572740764313959"
+    },
+    {
+      "name": "Recipely - Food Recipe Mobile App UI Kit",
+      "url": "https://www.figma.com/community/file/1160186880726418317",
+      "by": "Illiyin Studio",
+      "kind": "ui kit",
+      "app_kind": "recipes",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (677 likes, 35k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Recipely - Food Recipe Mobile App UI Kit, by Illiyin Studio. Licence: CC-BY-4.0. https://www.figma.com/community/file/1160186880726418317"
+    },
+    {
+      "name": "Food Recipe App",
+      "url": "https://www.figma.com/community/file/1073744977490410870",
+      "by": "Syahidina Alif",
+      "kind": "app template",
+      "app_kind": "recipes",
+      "format": "figma community",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "what": "Listed with a Free tag in Figma Community search results (294 likes, 11.5k users); contents not confirmed.",
+      "license": "CC-BY-4.0",
+      "license_checked": true,
+      "limits": "Only the licence line was read from the file page (2026-11-10). Screen count and contents were not checked.",
+      "free": "fully free",
+      "page_loaded": true,
+      "credit": "Food Recipe App, by Syahidina Alif. Licence: CC-BY-4.0. https://www.figma.com/community/file/1073744977490410870"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Figma Community file search, Free filter",
+      "url": "https://www.figma.com/community/search?resource_type=files&sort_by=relevancy&query=food%20delivery%20app&editor_type=all&price=free&creators=all",
+      "what": "Figma's own search across Community files; change the query for each app kind. Loads without sign-in and shows title, author, Free tag, likes and users. After about 40 page loads in a row it returned empty results and then a human-verification check."
+    },
+    {
+      "name": "Apple Design Resources",
+      "url": "https://developer.apple.com/design/resources/",
+      "what": "Every Apple Figma and Sketch kit and template: iOS and iPadOS, macOS, watchOS, visionOS, app icon template, Apple Pay, Wallet, Sign in with Apple, Live Activities, TipKit and more."
+    },
+    {
+      "name": "Android mobile design hub",
+      "url": "https://developer.android.com/design/ui/mobile",
+      "what": "Google's page linking the Android UI Kit, the Android Design Figma profile and the Material theme builder."
+    },
+    {
+      "name": "Fluent 2: get started with design",
+      "url": "https://fluent2.microsoft.design/get-started/design",
+      "what": "Microsoft's page linking the Fluent 2 Web, iOS and Android Figma kits."
+    },
+    {
+      "name": "Carbon Figma kits",
+      "url": "https://carbondesignsystem.com/designing/kits/figma/",
+      "what": "IBM's list of Carbon Figma Community libraries, including a beta native mobile kit."
+    },
+    {
+      "name": "shadcn/ui Figma page",
+      "url": "https://ui.shadcn.com/docs/figma",
+      "what": "Official list of four free and eight paid Figma kits for shadcn/ui."
+    },
+    {
+      "name": "Penpot libraries and templates",
+      "url": "https://penpot.app/libraries-templates",
+      "what": "Penpot's hub of community libraries, UI kits and app templates (mobile starter kit, Android kit, keyboards, food delivery, music, Mastodon, plants), each with a download and 'use in Penpot' link."
+    },
+    {
+      "name": "penpot/penpot-files",
+      "url": "https://github.com/penpot/penpot-files",
+      "what": "The GitHub repo that hosts the .penpot files behind the Penpot hub; README names CC BY 4.0."
+    },
+    {
+      "name": "Awesome Design Systems",
+      "url": "https://github.com/alexpate/awesome-design-systems",
+      "what": "About 160 design systems with columns for components, voice and tone, designers kit (Sketch, Figma or similar) and source code."
+    },
+    {
+      "name": "Design Systems Repo",
+      "url": "https://designsystemsrepo.com/design-systems/",
+      "what": "Gallery of design systems, style guides and pattern libraries, each linking to the system's own site; it does not flag which ones have Figma kits."
+    },
+    {
+      "name": "UI Store Design: wireframes",
+      "url": "https://uistore.design/categories/wireframes",
+      "what": "36 free wireframe resources for Figma, Sketch and Adobe XD; item pages link out to Figma Community files. Licences are not shown on the listings."
+    },
+    {
+      "name": "reinaldosimoes/design-resources",
+      "url": "https://github.com/reinaldosimoes/design-resources",
+      "what": "CC0 list of about 450 free design resources in 20 sections, including 19 icon sets, 13 design systems and about 29 UI kit sources."
+    },
+    {
+      "name": "react-figma/awesome-figma",
+      "url": "https://github.com/react-figma/awesome-figma",
+      "what": "Curated Figma resources; its templates and UI kits section holds only five general kits and no mobile or wireframe kits."
+    }
+  ],
+  "published": "Only entries with an open licence read from the source are in this file, each with the credit to give. Kits under their publisher's own terms (Apple's design resources, for one) and files whose licence could not be read are kept out of the published catalog."
+}
